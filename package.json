@@ -1,0 +1,13 @@
+{
+  "name": "pubnubChat",
+  "version": "0.0.1",
+  "description": "Chat for desktop and mobile running on node using pubnub",
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "mongodb": "latest",
+    "mongoose" : "latest"
+  },
+  "author": "Andrew Christopher Tran"
+}
