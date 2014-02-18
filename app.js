@@ -3,7 +3,7 @@ var port = 80;
 
 //application dependencies
 var express = require('express'),
-    app = express()
+    app = express();
 
 //Routes
 app.configure(function() {
@@ -13,6 +13,8 @@ app.configure(function() {
 /*************
  * Startup
  */
-console.log('NodeChat started. Listening on port ' + port);
+http.createServer(app).listen(app.get('port'), function () {
+  console.log("Express server listening on port " + app.get('port'));
+});
 
 //uh, and that's it. everything else is direct client to client using pubnub.
