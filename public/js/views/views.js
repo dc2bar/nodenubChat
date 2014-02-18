@@ -102,8 +102,8 @@ $(function () {
       var template = Handlebars.templates[this.template]({providers: this.model.toJSON()});
       thisView.$el.html(template);
       this.delegateEvents();
-      this.chatMessagesView.render();
-      this.usersListView.render();
+      app.chatMessagesView.render();
+      app.usersListView.render();
       return this;
     }
   });
