@@ -40,7 +40,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="6" selection-start="522" selection-end="522" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+                <marker date="1392312590000" expanded="true" signature="74:136" placeholder="..." />
+                <marker date="1392312590000" expanded="true" signature="120:129" placeholder="..." />
+                <marker date="1392312590000" expanded="true" signature="161:521" placeholder="..." />
+                <marker date="1392312590000" expanded="true" signature="210:221" placeholder="..." />
+                <marker date="1392312590000" expanded="true" signature="222:361" placeholder="..." />
+                <marker date="1392312590000" expanded="true" signature="270:354" placeholder="..." />
+                <marker date="1392312590000" expanded="true" signature="394:514" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -67,7 +73,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="63" selection-start="443" selection-end="443" vertical-scroll-proportion="0.48969072" vertical-offset="0" max-vertical-offset="582">
+            <state line="18" column="63" selection-start="383" selection-end="383" vertical-scroll-proportion="0.46391752" vertical-offset="0" max-vertical-offset="582">
               <folding />
             </state>
           </provider>
@@ -327,7 +333,11 @@
       <created>1392684920695</created>
       <updated>1392684920695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="handlebars template try 1&#10;">
+      <created>1392685330194</created>
+      <updated>1392685330194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -574,7 +584,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="6" selection-start="522" selection-end="522" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+            <marker date="1392312590000" expanded="true" signature="74:136" placeholder="..." />
+            <marker date="1392312590000" expanded="true" signature="120:129" placeholder="..." />
+            <marker date="1392312590000" expanded="true" signature="161:521" placeholder="..." />
+            <marker date="1392312590000" expanded="true" signature="210:221" placeholder="..." />
+            <marker date="1392312590000" expanded="true" signature="222:361" placeholder="..." />
+            <marker date="1392312590000" expanded="true" signature="270:354" placeholder="..." />
+            <marker date="1392312590000" expanded="true" signature="394:514" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -595,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="443" selection-end="443" vertical-scroll-proportion="0.48969072" vertical-offset="0" max-vertical-offset="582">
+        <state line="18" column="63" selection-start="383" selection-end="383" vertical-scroll-proportion="0.46391752" vertical-offset="0" max-vertical-offset="582">
           <folding />
         </state>
       </provider>
