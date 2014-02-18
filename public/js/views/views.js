@@ -3,6 +3,9 @@ $(function () {
   var app = {
     start: function () {
       app.loginView = new app.LoginView();
+      app.chatView = new app.ChatView();
+      app.chatMessagesView = new app.ChatMessagesView();
+      app.usersListView = new app.UsersListView();
     }
   }
 
@@ -49,6 +52,7 @@ $(function () {
       this.validatePassword(password);
       this.validateAvatar();
       this.validateColor();
+      app.ChatView.render();
     },
     editAvatar: function () {
       var avatarURL = prompt('Enter the URL for your avatar',this.avatarURL);
@@ -113,7 +117,6 @@ $(function () {
     },
     initialize: function () {
       this.model.bind('reset', this.render, this);
-      this.render();
     },
     render: function () {
       var thisView = this;
@@ -132,7 +135,6 @@ $(function () {
     },
     initialize: function () {
       this.model.bind('reset', this.render, this);
-      this.render();
     },
     render: function () {
       var thisView = this;
