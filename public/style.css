@@ -2487,3 +2487,7 @@ input[type="password"]:focus{
     width: 60px;
     height: 60px;
 }
+
+.login-view {
+    width: 100%;
+}

@@ -31,6 +31,7 @@
 
   <!-- scripts -->
   <script src="js/general.js"></script>
+  <script src="js/templates.js"></script>
   <script src="js/views/views.js"></script>
 
   <!-- custom input -->
@@ -51,30 +52,8 @@
 
 <body>
 <div class="body_wrap">
-  <div class="login-view"></div>
-  <div class="chat-view"></div>
   <!-- main app container -->
 </div>
 </body>
-
-<script>
-  var source   = $("#message-template").html();
-  var template = Handlebars.compile(source);
-  var context = {avatar: "images/avatar_placeholder.jpg", username: "Doogie", date: "2/12/2014", time: "7:41 PM", message: "testing test test"}
-  var html    = template(context);
-  $(function () {
-    $('.chat-area').append(html);
-  })
-</script>
-
-<script>
-  var source1   = $("#usercard-template").html();
-  var template1 = Handlebars.compile(source1);
-  var context1 = {avatar: "images/avatar_placeholder.jpg", username: "Doogie", title: "Knob Slobber in Training", uuid: "123546879"}
-  var html1    = template1(context1);
-  $(function () {
-    $('.userslist').append(html1);
-  })
-</script>
 
 </html>
