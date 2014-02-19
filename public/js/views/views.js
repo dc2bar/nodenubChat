@@ -81,9 +81,6 @@ $(function () {
   app.ChatView = Backbone.View.extend({
     el: '.body_wrap',
     template: 'chatmain',
-    initialize: function () {
-      this.render();
-    },
     render: function () {
       var thisView = this;
       var template = Handlebars.templates[this.template]();
