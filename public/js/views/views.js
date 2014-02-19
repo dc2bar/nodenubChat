@@ -90,6 +90,8 @@ $(function () {
     },
     renderNested: function( view, selector ) {
       var $element = ( selector instanceof $ ) ? selector : this.$el.find( selector );
+      console.log(view);
+      console.log(selector);
       view.setElement( $element ).render();
     }
   });
