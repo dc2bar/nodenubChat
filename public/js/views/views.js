@@ -105,7 +105,6 @@ $(function () {
       var thisView = this;
       var template = Handlebars.templates[this.template]();
       thisView.$el.html(template);
-      thisView.renderNested( thisView, thisView.el);
       return this;
     }
   })
@@ -121,7 +120,6 @@ $(function () {
       var thisView = this;
       var template = Handlebars.templates[this.template]();
       thisView.$el.html(template);
-      thisView.renderNested( thisView, thisView.el);
       return this;
     }
   })
