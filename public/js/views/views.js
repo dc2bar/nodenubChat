@@ -11,12 +11,18 @@ $(function () {
 
   /*-------------Models --------------*/
   app.User = Backbone.Model.extend({});
+  app.Message = Backbone.Model.extend({});
 
   /*------------Collections-----------*/
   app.ConnectedUsers = Backbone.Collection.extend({
     model: app.User
   })
+  app.CurrentMessages = Backbone.Collection.extend({
+    model: app.Message
+  });
+
   app.users = new app.ConnectedUsers();
+  app.messages = new app.CurrentMessages();
 
   /*------------Views----------------*/
 
@@ -81,6 +87,7 @@ $(function () {
     el: '.body_wrap',
     template: 'chatmain',
     initialize: function () {
+      this.model.bind('reset', this.render, this);
       this.render();
     },
     render: function () {
@@ -97,9 +104,12 @@ $(function () {
   app.ChatMessagesView = app.ChatView.extend({
     el: '.chat-messages',
     template: 'chatpanel',
-    model: app.users,
+    model: app.messages,
     events: {
       'click .widget_profile': 'launchUserOptions'
+    },
+    initialize: function () {
+      this.model.bind('reset', this.render, this);
     },
     render: function() {
       var thisView = this;
@@ -115,6 +125,9 @@ $(function () {
     model: app.users,
     events: {
       'click .widget_profile': 'launchUserOptions'
+    },
+    initialize: function () {
+      this.model.bind('reset', this.render, this);
     },
     render: function() {
       var thisView = this;
