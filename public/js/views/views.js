@@ -80,35 +80,22 @@ $(function () {
 
   app.ChatView = Backbone.View.extend({
     el: '.body_wrap',
-    template: 'login',
-    usernameField: '#username',
-    passwordField: '#password',
-    avatarField: '#image',
-    colorField: '#color',
-    avatarURL: 'images/avatar_placeholder.jpg',
-    chatColor: '#959da6',
-    model: app.users,
-    events: {
-      'click #login': 'login',
-      'click #image': 'editAvatar',
-      'click #color': 'editColor'
-    },
+    template: 'chatmain',
     initialize: function () {
-      this.model.bind('reset', this.render, this);
       this.render();
     },
     render: function () {
       var thisView = this;
       var template = Handlebars.templates[this.template]({providers: this.model.toJSON()});
       thisView.$el.html(template);
-      this.delegateEvents();
-      app.chatMessagesView.render();
-      app.usersListView.render();
-      return this;
+    },
+    renderNested: function( view, selector ) {
+      var $element = ( selector instanceof $ ) ? selector : this.$el.find( selector );
+      view.setElement( $element ).render();
     }
   });
 
-  app.ChatMessagesView = Backbone.View.extend({
+  app.ChatMessagesView = app.ChatView.extend({
     el: '.chat-messages',
     template: 'chatpanel',
     model: app.users,
@@ -118,15 +105,16 @@ $(function () {
     initialize: function () {
       this.model.bind('reset', this.render, this);
     },
-    render: function () {
+    render: function() {
       var thisView = this;
       var template = Handlebars.templates[this.template]({providers: this.model.toJSON()});
       thisView.$el.html(template);
-      this.delegateEvents();
+      thisView.renderNested( thisView.ChatMessagesView, thisView.el);
+      return this;
     }
   })
 
-  app.UsersListView = Backbone.View.extend({
+  app.UsersListView = app.ChatView.extend({
     el: '.userslist',
     template: 'userslist',
     model: app.users,
@@ -136,11 +124,12 @@ $(function () {
     initialize: function () {
       this.model.bind('reset', this.render, this);
     },
-    render: function () {
+    render: function() {
       var thisView = this;
       var template = Handlebars.templates[this.template]({providers: this.model.toJSON()});
       thisView.$el.html(template);
-      this.delegateEvents();
+      thisView.renderNested( thisView.ChatMessagesView, thisView.el);
+      return this;
     }
   })
 
