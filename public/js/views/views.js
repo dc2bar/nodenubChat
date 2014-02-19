@@ -21,7 +21,7 @@ $(function () {
   /*------------Views----------------*/
 
   app.LoginView = Backbone.View.extend({
-    el: '.body_wrap',
+    el: '.login-panel',
     template: 'login',
     usernameField: '#username',
     passwordField: '#password',
@@ -52,7 +52,6 @@ $(function () {
       this.validatePassword(password);
       this.validateAvatar();
       this.validateColor();
-      app.ChatView.render();
     },
     editAvatar: function () {
       var avatarURL = prompt('Enter the URL for your avatar',this.avatarURL);
@@ -79,8 +78,11 @@ $(function () {
   });
 
   app.ChatView = Backbone.View.extend({
-    el: '.body_wrap',
+    el: '.chat-container',
     template: 'chatmain',
+    initialize: function () {
+      this.render();
+    },
     render: function () {
       var thisView = this;
       var template = Handlebars.templates[this.template]();
