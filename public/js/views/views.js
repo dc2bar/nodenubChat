@@ -21,7 +21,7 @@ $(function () {
   /*------------Views----------------*/
 
   app.LoginView = Backbone.View.extend({
-    el: '.login-panel',
+    el: '.login-container',
     template: 'login',
     usernameField: '#username',
     passwordField: '#password',
