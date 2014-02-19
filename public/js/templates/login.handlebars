@@ -1,44 +1,37 @@
-<div class="container login">
-  <div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
-      <!-- login form -->
-      <div class="absolute-center add-comment add-comment-velvet styled" id="addcomments">
-        <div class="add-comment-title"><h3>Chat Login</h3></div>
-        <div class="comment-form login-form">
-          <form>
-            <div class="form-inner">
-              <div class="field_text">
-                <label for="username" class="label_title">Username:</label>
-                <input type="text" id="username" value="" placeholder="Pick a chat name"
-                       class="inputtext input_middle"/>
-              </div>
-              <div class="field_text">
-                <label for="password" class="label_title">Password:</label>
-                <input type="text" id="password" value="" placeholder="Password"
-                       class="inputtext input_middle"/>
-              </div>
-              <div class="field_text">
-                <div>No password needed right now. will work on that later.</div>
-              </div>
-              <div class="field_select">
-                <label for="image">Pick a chat icon</label>
-                <div id="image" class="avatar">
-                  <img src="images/avatar_placeholder.jpg">
-                </div>
-              </div>
-              <div class="field_select">
-                <label for="color">Pick a chat color</label>
-                <div id="color" class="color"></div>
-              </div>
-            </div>
-
-            <div class="rowSubmit">
-              <span class="btn"><input type="button" id="login" value="Login"/></span>
-            </div>
-          </form>
+<!-- login form -->
+<div class="modal add-comment add-comment-velvet styled" id="addcomments">
+  <div class="add-comment-title"><h3>Chat Login</h3></div>
+  <div class="comment-form login-form">
+    <form>
+      <div class="form-inner">
+        <div class="field_text">
+          <label for="username" class="label_title">Username:</label>
+          <input type="text" id="username" value="" placeholder="Pick a chat name"
+                 class="inputtext input_middle"/>
+        </div>
+        <div class="field_text">
+          <label for="password" class="label_title">Password:</label>
+          <input type="text" id="password" value="" placeholder="Password"
+                 class="inputtext input_middle"/>
+        </div>
+        <div class="field_text">
+          <div>No password needed right now. will work on that later.</div>
+        </div>
+        <div class="field_select">
+          <label for="image">Pick a chat icon</label>
+          <div id="image" class="avatar">
+            <img src="images/avatar_placeholder.jpg">
+          </div>
+        </div>
+        <div class="field_select">
+          <label for="color">Pick a chat color</label>
+          <div id="color" class="color"></div>
         </div>
       </div>
-    </div>
+
+      <div class="rowSubmit">
+        <span class="btn"><input type="button" id="login" value="Login"/></span>
+      </div>
+    </form>
   </div>
 </div>
-<!--/ container -->

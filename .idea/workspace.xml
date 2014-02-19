@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb3252e-e905-4d97-bc71-1b64cbe2c910" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/templates/login.handlebars" afterPath="$PROJECT_DIR$/public/js/templates/login.handlebars" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pubnubChat.iws" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="24" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.7540107" vertical-offset="0" max-vertical-offset="2040">
+            <state line="42" column="26" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -37,11 +38,20 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="31" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-33.583332" vertical-offset="34" max-vertical-offset="975">
+            <state line="57" column="7" selection-start="1683" selection-end="1683" vertical-scroll-proportion="-32.958332" vertical-offset="64" max-vertical-offset="975">
               <folding>
                 <marker date="1392831728000" expanded="true" signature="1486:1550" placeholder="..." />
                 <marker date="1392831728000" expanded="true" signature="1502:1540" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.handlebars" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/templates/login.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="75" selection-start="838" selection-end="838" vertical-scroll-proportion="0.27991217" vertical-offset="0" max-vertical-offset="911">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,7 +144,6 @@
         <option value="$PROJECT_DIR$/public/js/templates/chatmessage.handlebars" />
         <option value="$PROJECT_DIR$/public/js/templates/usercard.handlebars" />
         <option value="$PROJECT_DIR$/public/template.html" />
-        <option value="$PROJECT_DIR$/public/js/templates/login.handlebars" />
         <option value="$PROJECT_DIR$/public/js/views/login_view.js" />
         <option value="$PROJECT_DIR$/bak.html" />
         <option value="$PROJECT_DIR$/public/chat.html" />
@@ -143,6 +152,7 @@
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/views/views.js" />
+        <option value="$PROJECT_DIR$/public/js/templates/login.handlebars" />
       </list>
     </option>
   </component>
@@ -208,6 +218,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubnubChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubnubChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubnubChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubnubChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,7 +458,11 @@
       <created>1392831730996</created>
       <updated>1392831730996</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="handlebars template try 1&#10;">
+      <created>1392831737683</created>
+      <updated>1392831737683</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -543,7 +597,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/templates/login.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="735" />
+        <state line="28" column="40" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="735">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
@@ -665,11 +721,6 @@
         <state line="106" column="9" selection-start="3807" selection-end="3807" vertical-scroll-proportion="-22.166666" vertical-offset="1058" max-vertical-offset="1680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/templates/login.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.50825685" vertical-offset="143" max-vertical-offset="735" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="21" selection-start="218" selection-end="218" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
@@ -684,9 +735,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/templates/userslist.handlebars">
+    <entry file="file://$PROJECT_DIR$/public/js/templates/chatpanel.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+        <state line="13" column="6" selection-start="522" selection-end="522" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/templates/chatmain.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
@@ -698,9 +758,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/templates/chatmain.handlebars">
+    <entry file="file://$PROJECT_DIR$/public/js/templates/userslist.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="3" column="6" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="26" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
@@ -712,18 +779,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/templates/chatpanel.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="522" selection-end="522" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="31" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-33.583332" vertical-offset="34" max-vertical-offset="975">
+        <state line="57" column="7" selection-start="1683" selection-end="1683" vertical-scroll-proportion="-32.958332" vertical-offset="64" max-vertical-offset="975">
           <folding>
             <marker date="1392831728000" expanded="true" signature="1486:1550" placeholder="..." />
             <marker date="1392831728000" expanded="true" signature="1502:1540" placeholder="{...}" />
@@ -731,9 +789,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
+    <entry file="file://$PROJECT_DIR$/public/js/templates/login.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.7540107" vertical-offset="0" max-vertical-offset="2040">
+        <state line="17" column="75" selection-start="838" selection-end="838" vertical-scroll-proportion="0.27991217" vertical-offset="0" max-vertical-offset="911">
           <folding />
         </state>
       </provider>
