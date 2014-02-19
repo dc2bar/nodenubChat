@@ -86,7 +86,7 @@ $(function () {
     },
     render: function () {
       var thisView = this;
-      var template = Handlebars.templates[this.template]({providers: this.model.toJSON()});
+      var template = Handlebars.templates[this.template]();
       thisView.$el.html(template);
     },
     renderNested: function( view, selector ) {
