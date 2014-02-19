@@ -21,7 +21,7 @@ $(function () {
   /*------------Views----------------*/
 
   app.LoginView = Backbone.View.extend({
-    el: '.login-container',
+    el: '.body_wrap',
     template: 'login',
     usernameField: '#username',
     passwordField: '#password',
@@ -78,7 +78,7 @@ $(function () {
   });
 
   app.ChatView = Backbone.View.extend({
-    el: '.chat-container',
+    el: '.body_wrap',
     template: 'chatmain',
     initialize: function () {
       this.render();
