@@ -102,9 +102,6 @@ $(function () {
     events: {
       'click .widget_profile': 'launchUserOptions'
     },
-    initialize: function () {
-      this.model.bind('reset', this.render, this);
-    },
     render: function() {
       var thisView = this;
       var template = Handlebars.templates[this.template]({providers: this.model.toJSON()});
@@ -120,9 +117,6 @@ $(function () {
     model: app.users,
     events: {
       'click .widget_profile': 'launchUserOptions'
-    },
-    initialize: function () {
-      this.model.bind('reset', this.render, this);
     },
     render: function() {
       var thisView = this;
