@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb3252e-e905-4d97-bc71-1b64cbe2c910" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/templates/chatmain.handlebars" afterPath="$PROJECT_DIR$/public/js/templates/chatmain.handlebars" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/views.js" afterPath="$PROJECT_DIR$/public/js/views/views.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="27" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="2040">
+            <state line="32" column="13" selection-start="895" selection-end="895" vertical-scroll-proportion="0.51336896" vertical-offset="0" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -41,19 +39,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="29" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-32.333332" vertical-offset="34" max-vertical-offset="960">
+            <state line="56" column="31" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-33.583332" vertical-offset="34" max-vertical-offset="975">
               <folding>
-                <marker date="1392831502000" expanded="true" signature="1486:1550" placeholder="..." />
-                <marker date="1392831502000" expanded="true" signature="1502:1540" placeholder="{...}" />
+                <marker date="1392831728000" expanded="true" signature="1486:1550" placeholder="..." />
+                <marker date="1392831728000" expanded="true" signature="1502:1540" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2462" column="34" selection-start="76316" selection-end="76316" vertical-scroll-proportion="0.4143167" vertical-offset="36548" max-vertical-offset="37470">
+            <state line="103" column="10" selection-start="2673" selection-end="2682" vertical-scroll-proportion="234.88461" vertical-offset="7652" max-vertical-offset="37470">
               <folding />
             </state>
           </provider>
@@ -143,10 +141,10 @@
         <option value="$PROJECT_DIR$/bak.html" />
         <option value="$PROJECT_DIR$/public/chat.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/js/views/views.js" />
         <option value="$PROJECT_DIR$/public/js/templates/chatmain.handlebars" />
         <option value="$PROJECT_DIR$/public/style.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/js/views/views.js" />
       </list>
     </option>
   </component>
@@ -404,7 +402,11 @@
       <created>1392831245292</created>
       <updated>1392831245292</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="handlebars template try 1&#10;">
+      <created>1392831505036</created>
+      <updated>1392831505036</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -463,8 +465,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="25" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="960">
           <folding>
-            <marker date="1392831502000" expanded="true" signature="1486:1550" placeholder="..." />
-            <marker date="1392831502000" expanded="true" signature="1502:1540" placeholder="{...}" />
+            <marker date="1392831728000" expanded="true" signature="1486:1550" placeholder="..." />
+            <marker date="1392831728000" expanded="true" signature="1502:1540" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -524,8 +526,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="0" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="960">
           <folding>
-            <marker date="1392831502000" expanded="true" signature="1486:1550" placeholder="..." />
-            <marker date="1392831502000" expanded="true" signature="1502:1540" placeholder="{...}" />
+            <marker date="1392831728000" expanded="true" signature="1486:1550" placeholder="..." />
+            <marker date="1392831728000" expanded="true" signature="1502:1540" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -680,23 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="29" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-32.333332" vertical-offset="34" max-vertical-offset="960">
-          <folding>
-            <marker date="1392831502000" expanded="true" signature="1486:1550" placeholder="..." />
-            <marker date="1392831502000" expanded="true" signature="1502:1540" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/templates/userslist.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
@@ -718,6 +703,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="10" selection-start="2673" selection-end="2682" vertical-scroll-proportion="234.88461" vertical-offset="7652" max-vertical-offset="37470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/templates/chatpanel.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="6" selection-start="522" selection-end="522" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
@@ -727,9 +719,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/style.css">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2462" column="34" selection-start="76316" selection-end="76316" vertical-scroll-proportion="0.4143167" vertical-offset="36548" max-vertical-offset="37470">
+        <state line="56" column="31" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-33.583332" vertical-offset="34" max-vertical-offset="975">
+          <folding>
+            <marker date="1392831728000" expanded="true" signature="1486:1550" placeholder="..." />
+            <marker date="1392831728000" expanded="true" signature="1502:1540" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="895" selection-end="895" vertical-scroll-proportion="0.51336896" vertical-offset="0" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
