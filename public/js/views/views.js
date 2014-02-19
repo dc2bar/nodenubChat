@@ -90,8 +90,6 @@ $(function () {
     },
     renderNested: function( view, selector ) {
       var $element = ( selector instanceof $ ) ? selector : this.$el.find( selector );
-      console.log(view);
-      console.log(selector);
       view.setElement( $element ).render();
     }
   });
@@ -123,7 +121,7 @@ $(function () {
       var thisView = this;
       var template = Handlebars.templates[this.template]();
       thisView.$el.html(template);
-      thisView.renderNested( thisView.ChatMessagesView, thisView.el);
+      thisView.renderNested( thisView.UsersListView, thisView.el);
       return this;
     }
   })
